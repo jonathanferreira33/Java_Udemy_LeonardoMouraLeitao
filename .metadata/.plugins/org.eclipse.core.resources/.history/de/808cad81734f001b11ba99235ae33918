@@ -24,9 +24,9 @@ public class DesafioAritmeticos {
 		int superior3 = (int) Math.pow(superior, 3); 
 
 		
-		int inferior = (int) Math.pow(10, 3); //inferior
+		int f = (int) Math.pow(10, 3); //inferior
 				
-		int resultadoFinal = superior3 / inferior;
+		int resultadoFinal = e / f;
 		System.out.println(resultadoFinal);
 	}
 }
