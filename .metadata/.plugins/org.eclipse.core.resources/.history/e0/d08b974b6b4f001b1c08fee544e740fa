@@ -1,0 +1,27 @@
+package java_exercicios;
+
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class DesafioConversao {
+	
+	public static void main(String[] args) {
+		
+	Scanner entrada = new Scanner(System.in);
+	
+	System.out.println("Digite seu antepenúltimo salário: ");
+	String salario1 = entrada.next().replace(",", ".");
+	
+	System.out.println("Digite seu penúltimo salário: ");
+	String salario2 = entrada.next().replace(",", ".");
+			
+	System.out.println("Digite seu último salário: ");
+	String salario3 = entrada.next().replace(",", ".");
+	
+	 
+	entrada.close();
+	
+	}
+	
+}
