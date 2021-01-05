@@ -1,0 +1,19 @@
+package java_exercicios;
+
+public class DesafioAritmeticos {
+	public static void main(String[] args) {
+		
+		int x = 2 * 6 - 7;
+		int y = (int) Math.pow(x, 3); // a saida do metodo Math.pow é um double, o que obriga o uso do (int)
+		System.out.println(y);
+		
+//		Desafio:
+//		([6*(3+2)]²/3*2 - ((1-5)*(2-7)/2)²)3/10
+		
+		int a = 6*(3+2);
+		int b = 3*2;
+		int a2 = (int) Math.pow(a, 2);
+		int a2b = a2 / b;
+		System.out.println(a2b);
+	}
+}
