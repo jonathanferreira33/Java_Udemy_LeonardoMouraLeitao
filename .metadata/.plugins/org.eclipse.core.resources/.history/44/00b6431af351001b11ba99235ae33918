@@ -1,0 +1,11 @@
+package java_exercicios;
+
+public class Ternario {
+	public static void main(String[] args) {
+		
+		double media = 8.8;
+		String resultado = media >= 7.6 ? "Aprovado" : "Recuperacao";
+		System.out.println(resultado);
+	}
+
+}
