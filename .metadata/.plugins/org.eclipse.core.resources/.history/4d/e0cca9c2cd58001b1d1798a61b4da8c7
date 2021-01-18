@@ -1,0 +1,28 @@
+package controle;
+
+import java.util.Scanner;
+
+public class If {
+	
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Informe sua média: ");
+		double media = entrada.nextDouble();
+		
+		if(media < 10) {
+			if(media >= 7.0) {
+				System.out.println("Aprovado!");
+			} else if(media < 7 && media >= 4) {
+				System.out.println("REm recuperação!");
+			} else {
+				System.out.println("Reprovado :( ");
+			}
+		}else {
+			System.out.println("Que? Oó");
+		}
+		
+		entrada.close();
+	}
+
+}

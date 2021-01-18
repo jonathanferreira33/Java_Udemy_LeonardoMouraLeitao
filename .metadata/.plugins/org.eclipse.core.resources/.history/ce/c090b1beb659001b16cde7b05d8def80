@@ -1,0 +1,10 @@
+package controle;
+
+import java.util.Scanner;
+
+public class EX03_estruturasDeControle {
+	
+	Scanner entrada = new Scanner(System.in);
+	
+	entrada.close();
+}

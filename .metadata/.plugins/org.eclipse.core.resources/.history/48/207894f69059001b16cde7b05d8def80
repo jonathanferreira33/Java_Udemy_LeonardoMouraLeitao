@@ -1,0 +1,31 @@
+package controle;
+
+import java.util.Scanner;
+
+public class DesafioWhile {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		System.out.println("Vamos calcular sua média ");
+		int totalNotas = 0;
+		double somaNotas = 0;
+		
+		System.out.println("Digite a 1ª nota: ");
+		double notaAtual = entrada.nextFloat();
+		
+		while(notaAtual != -1) {
+			System.out.println("Digite a próxima nota: ");
+			notaAtual = entrada.nextFloat();
+			
+			somaNotas = somaNotas + notaAtual;
+			totalNotas++;
+		}
+		
+		double media = somaNotas / totalNotas;
+		
+		System.out.println("Você digitou um total de: " + totalNotas + ", e sua média foi: " + media);
+		entrada.close();
+	}
+
+}

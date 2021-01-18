@@ -1,0 +1,22 @@
+package controle;
+
+import java.util.Scanner;
+
+public class While {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in); 
+		
+		System.out.println("Digite uma palavra: ");
+		
+		String resp = entrada.nextLine();
+		
+		while( resp.equalsIgnoreCase("sair") ) {
+			
+		}
+		
+		entrada.close();
+	}
+
+}

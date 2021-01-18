@@ -1,0 +1,25 @@
+package controle;
+
+import java.util.Scanner;
+
+public class Switch {
+
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Digite su nota: ");
+		
+		String conceito = "";
+		int nota = entrada.nextInt();
+		
+		switch(nota) {
+		case 10:
+			conceito = "A";
+			break;
+		}
+		
+		entrada.close();
+	}
+	
+}

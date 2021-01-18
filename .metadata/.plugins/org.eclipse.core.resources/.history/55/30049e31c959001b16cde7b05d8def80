@@ -1,0 +1,27 @@
+package controle;
+
+import java.util.Scanner;
+
+public class EX07_estruturasDeControle {
+	
+//	Criar um programa que enquanto estiver recebendo números positivos,
+//	imprime no console a soma dos números inseridos, caso receba um número negativo,
+//	encerre o programa. Tente utilizar a estrutura do while.
+	
+	public static void main(String[] args) {
+	
+			
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Digite um número: ");
+		int numero = entrada.nextInt();
+				
+		while(numero > 0) {
+			System.out.println("Digite um novo número: ");
+		}
+
+		entrada.close();
+		
+		
+	}
+}

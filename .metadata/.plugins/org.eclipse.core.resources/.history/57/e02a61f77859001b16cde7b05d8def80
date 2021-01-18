@@ -1,0 +1,18 @@
+package controle;
+
+import java.util.Scanner;
+
+public class DesafioDiaSemana {
+
+	public static void main(String[] args) {
+		//Domingo =1
+		//..
+		//sabado = 7
+		Scanner entrada = new Scanner(System.in);
+		
+		
+		String diaSemana = entrada.next()
+		
+		if()
+	}
+}
