@@ -1,0 +1,25 @@
+package classe;
+
+public class Data {
+	
+	int dia;
+	String mes;
+	int ano;
+	
+	String obterDataFormatada() {
+		return String.format( "%d / %s / %d ", dia, mes, ano);
+	}
+	
+	Data() { //contrustor padrão com data fixa caso não ocorra atribuição
+		dia = 01;
+		mes = "JAN";
+		ano = 1970;
+	}
+	
+	Data(int diaInicial, String mesInicial, int anoInicial) {
+		dia = diaInicial;
+		mes = mesInicial;
+		ano = anoInicial;
+	}
+}
+

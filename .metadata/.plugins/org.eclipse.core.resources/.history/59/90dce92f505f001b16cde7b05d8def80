@@ -1,0 +1,17 @@
+package classe;
+
+public class Produto {
+	
+	String nome;
+	double preco;
+	double desconto;
+	
+	Produto(String nomeInicial) {
+	 nome = nomeInicial;
+	}
+	
+	double precocomDesconto() {
+		return  preco * (1-desconto); 
+		
+	};
+}

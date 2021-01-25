@@ -1,0 +1,14 @@
+package classe;
+
+public class AreaCircTeste {
+	double raio;
+	double pi;
+	
+	AreaCircTeste(double raioInicial) {
+		raio = raioInicial;
+	}
+	
+	double area() {
+		return pi * Math.pow(raio, 2);
+	}
+}

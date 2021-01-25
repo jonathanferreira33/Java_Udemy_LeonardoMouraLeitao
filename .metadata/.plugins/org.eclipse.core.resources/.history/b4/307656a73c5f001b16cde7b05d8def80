@@ -1,0 +1,16 @@
+package classe;
+
+public class DataTeste {
+	
+	public static void main(String[] args) {
+		
+		Data d1 = new Data();
+		d1.dia = 22;
+		d1.mes = "JUL";
+		d1.ano = 1993;
+		
+		System.out.printf("Seu aniversário é : %d / %s / %d ", d1.dia, d1.mes, d1.ano );
+		
+	}
+	
+}
