@@ -1,9 +1,0 @@
-package controle;
-
-public class EX01_estruturasDeControle {
-	
-	public static void main(String[] args) {
-		
-	}
-
-}

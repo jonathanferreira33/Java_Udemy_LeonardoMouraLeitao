@@ -7,19 +7,25 @@ public class Data {
 	int ano;
 	
 	String obterDataFormatada() {
-		return String.format( "%d / %s / %d ", dia, mes, ano);
+		return String.format( "%d / %s / %d ", this.dia, mes, ano);
 	}
 	
 	Data() { //contrustor padrão com data fixa caso não ocorra atribuição
-		dia = 01;
-		mes = "JAN";
-		ano = 1970;
+//		dia = 01;
+//		mes = "JAN";
+//		ano = 1970;
+		
+		this(1,"JAN",1970); //FORMA USADA A APARTIR DE UM CONSTRUTOR
 	}
 	
-	Data(int diaInicial, String mesInicial, int anoInicial) {
-		dia = diaInicial;
-		mes = mesInicial;
-		ano = anoInicial;
+	Data(int dia, String mes, int ano) {
+		this.dia = dia; //REFERENCIAR O OBJETO ATUAL 
+		this.mes = mes;
+		this.ano = ano;
+	}
+	
+	static void teste() {
+//		this.dia = 3; // não é possivel acessar this(instancia) em metodo void
 	}
 }
 

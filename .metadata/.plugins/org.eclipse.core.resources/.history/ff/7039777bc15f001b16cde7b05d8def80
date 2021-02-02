@@ -1,0 +1,25 @@
+package classe;
+
+public class ValorVsReferencia {
+	
+	public static void main(String[] args) {
+		double a = 2;
+		double b = a; //atribuicao do valor
+		
+		a++;
+		b--;
+		
+		System.out.println(a + " " + b);
+		
+		
+		Data d1 = new Data(1, "Jul", 2021);
+		Data d2 = d1;
+		
+		d1.dia = 31;
+		d2.mes = "Jun";
+		
+		System.out.printl(d1.obterDataFormatada());
+		System.out.println(d2.obterDataFormatada());
+	}
+
+}
