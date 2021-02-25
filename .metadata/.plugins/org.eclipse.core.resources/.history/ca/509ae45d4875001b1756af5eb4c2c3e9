@@ -1,0 +1,19 @@
+package arrays;
+
+import java.util.Arrays;
+
+public class Exercicios {
+	
+	public static void main(String[] args) {
+		
+		double[] notasAlunosA = new double[3];
+		notasAlunosA[0] = 7.9;
+		notasAlunosA[1] = 8;
+		notasAlunosA[2] = 6.7;
+		
+		
+		
+		System.out.println(Arrays.toString(notasAlunosA));
+	}
+
+}

@@ -1,0 +1,27 @@
+package colecoes;
+
+import java.util.HashMap;
+
+
+public class Map { //chave e valor
+	
+	public static void main(String[] args) {
+		
+		java.util.Map<Integer, String> usuarios = new HashMap<>();
+		
+		usuarios.put(1, "Jonathan");
+		usuarios.put(1, "Jon");
+		
+		System.out.println(usuarios.size()); // 1 pois não é duplicidade na chave
+		
+		usuarios.put(2, "Jon");
+		usuarios.put(3, "Ferreira");
+		
+		System.out.println(usuarios.size());
+		System.out.println(usuarios.isEmpty());
+		System.out.println(usuarios.keySet()); //odem das chaves
+		System.out.println(usuarios.values());
+		
+	}
+
+}

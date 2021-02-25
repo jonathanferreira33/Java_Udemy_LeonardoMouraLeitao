@@ -1,0 +1,14 @@
+package colecoes;
+
+import java.util.HashMap;
+
+
+public class Map {
+	
+	public static void main(String[] args) {
+		
+		java.util.Map<Integer, String> usuarios = new HashMap<>();
+		usuarios.put(1, "Jonathan");
+	}
+
+}

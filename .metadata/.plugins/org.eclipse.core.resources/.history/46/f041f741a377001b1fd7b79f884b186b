@@ -1,0 +1,18 @@
+package colecoes;
+
+import java.util.HashMap;
+
+
+public class Map { //chave e valor
+	
+	public static void main(String[] args) {
+		
+		java.util.Map<Integer, String> usuarios = new HashMap<>();
+		
+		usuarios.put(1, "Jonathan");
+		usuarios.put(1, "Jon");
+		
+		System.out.println(usuarios.size());
+	}
+
+}

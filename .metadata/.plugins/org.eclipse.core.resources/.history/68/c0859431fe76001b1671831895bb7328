@@ -1,0 +1,16 @@
+package classe;
+
+public class Usuario {
+	String nome;
+	String email;
+	
+	
+	public boolean equals(Object obj) {
+		
+		if(obj instanceof Usuario) {
+			Usuario outro = (Usuario) obj;
+			return outro.nome == this.nome;		
+		}		
+	}
+}
+

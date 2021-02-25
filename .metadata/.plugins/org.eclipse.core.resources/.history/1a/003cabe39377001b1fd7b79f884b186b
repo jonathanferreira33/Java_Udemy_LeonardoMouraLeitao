@@ -1,0 +1,16 @@
+package colecoes;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class Fila {
+	
+	public static void main(String[] args) {
+		
+		Queue<String> fila = new LinkedList<>();
+		
+		fila.add("Jonathan"); //caso não consiga add por falta de tamanho, por exemplo, ele retorna erro
+		fila.offer("Jhouus"); //casa não consiga add ele retorna false
+	}
+
+}
