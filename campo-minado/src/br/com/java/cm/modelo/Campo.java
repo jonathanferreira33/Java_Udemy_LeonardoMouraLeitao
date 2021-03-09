@@ -123,7 +123,7 @@ public class Campo {
 		}else if(aberto && minado) {
 			return "*";
 		}else if(aberto && minasVizinhas() > 0) {
-			return Long.toBinaryString(minasVizinhas());
+			return Long.toString(minasVizinhas());
 		}else if(aberto) {
 			return " ";
 		}else {

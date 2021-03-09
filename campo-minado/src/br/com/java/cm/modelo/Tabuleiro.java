@@ -40,6 +40,7 @@ public class Tabuleiro {
 		campos.parallelStream()
 		.filter(c -> c.getLinha() == linha && c.getColuna() == coluna)
 		.findFirst()
+		
 		.ifPresent(c -> c.alternarMarcacao());
 	}
 	
@@ -65,12 +66,12 @@ public class Tabuleiro {
 	private void sortearMinas() {
 		long minasArmadas = 0;
 		Predicate<Campo> minado = c -> c.isMinado();
-		
+
 		do {
-			int aleatorio = (int) (Math.random() * campos.size()); //Math.... esta entre aspas para que primeiro seja gerado o numero e depois convertido em inteiro
+			int aleatorio = (int) (Math.random() * campos.size());
 			campos.get(aleatorio).minar();
 			minasArmadas = campos.stream().filter(minado).count();
-		} while(minasArmadas < minas);
+		} while (minasArmadas < minas);
 		
 	}
 	
