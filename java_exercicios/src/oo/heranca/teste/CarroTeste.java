@@ -1,10 +1,13 @@
-package oo.heranca;
+package oo.heranca.teste;
+
+import oo.heranca.Clubman;
+import oo.heranca.Cooper;
 
 public class CarroTeste {
 	
 	public static void main(String[] args) {
 		
-		Clubman c = new Clubman();
+		Clubman c = new Clubman(270);
 		c.acelerar();
 		System.out.println(c);
 		

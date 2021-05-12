@@ -2,9 +2,14 @@ package oo.heranca;
 
 public class Clubman extends Carro {
 	
-	@Override
-	void acelerar() {
-		velocidadeAtual += 10;
+	Clubman() {
+		this(289);
 	}
-
+	
+	
+	public Clubman(int velocidadeMaxima){
+		super(velocidadeMaxima);
+		delta = 215;
+	}
+	
 }
