@@ -4,7 +4,7 @@ public class PessoaTeste {
 	
 	public static void main(String[] args) {
 		
-		Pessoa p1 = new Pessoa(27);
+		Pessoa p1 = new Pessoa("Jonathan", "Ferreira", 27);
 		
 		/*
 		 * Leitura com classe Pessoa Public
@@ -19,6 +19,8 @@ public class PessoaTeste {
 		// alterar idade pessoa com classe Pessoa Private
 		p1.alterarIdade(28);
 		System.out.println(p1.lerIdade());
+		
+		System.out.println(p1.getNomeCompleto());
 	}
 
 }

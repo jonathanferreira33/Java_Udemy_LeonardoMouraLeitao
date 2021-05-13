@@ -1,7 +1,7 @@
 package oo.heranca.teste;
 
-import oo.heranca.Clubman;
-import oo.heranca.Cooper;
+import oo.heranca.desafio.Clubman;
+import oo.heranca.desafio.Cooper;
 
 public class CarroTeste {
 	
@@ -9,6 +9,7 @@ public class CarroTeste {
 		
 		Clubman c = new Clubman(270);
 		c.acelerar();
+		c.ligarTurbo();
 		System.out.println(c);
 		
 		c.acelerar();
@@ -20,6 +21,7 @@ public class CarroTeste {
 		c.acelerar();
 		c.freiar();
 		System.out.println(c);
+		
 		
 		
 		Cooper c1 = new Cooper();
@@ -35,5 +37,15 @@ public class CarroTeste {
 		
 		c1.acelerar();
 		System.out.println(c1);
+		
+		
+		Clubman c2 = new Clubman(270);
+		c2.ligarAr();
+		c2.acelerar(); //+10
+		c2.acelerar(); //+10
+		c2.desligarAr();
+		c2.ligarTurbo(); //+35
+		c2.acelerar();
+		System.out.println(c2);
 	}
 }
