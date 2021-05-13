@@ -20,6 +20,8 @@ public class CarroTeste {
 		
 		c.acelerar();
 		c.freiar();
+		c.nivelDoAr();
+		System.out.println("Nivel do ar:" + c.nivelDoAr());
 		System.out.println(c);
 		
 		
