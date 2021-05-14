@@ -21,7 +21,7 @@ public class EX07_estruturasDeControle {
 			numero = entrada.nextInt();
 			if(numero > 0) {
 				somaNumeros += + numero;
-				System.out.println("Soma dos numeros digitados até o momento: " + somaNumeros);				
+				System.out.println("Somar dos numeros digitados até o momento: " + somaNumeros);				
 			}
 		}
 
