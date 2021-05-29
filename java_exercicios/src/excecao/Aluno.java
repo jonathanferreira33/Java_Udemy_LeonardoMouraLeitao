@@ -2,9 +2,9 @@ package excecao;
 
 public class Aluno {
 	
-	final String nome;
-	final double nota;
-	final boolean brasileiro;
+	public final String nome;
+	public final double nota;
+	public final boolean brasileiro;
 	
 	public Aluno(String nome, double nota) {
 		this(nome, nota, true); // está utilizando o construtor abaixo
