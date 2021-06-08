@@ -1,6 +1,6 @@
 package excecao;
 
-public class Causa {
+public class Causa { 
 	
 	public static void main(String[] args) {
 		try {
